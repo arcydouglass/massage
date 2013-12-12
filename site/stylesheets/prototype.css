@@ -1,0 +1,129 @@
+/* 
+
+This file contains all your CSS style rules. 
+indent = 2 spaces, not tabs 
+
+Reference: http://www.w3schools.com/css/default.asp
+
+*/
+
+/* because every browser has a built in stylesheet we have to reset those properties that we want to manipulate later. We do this by setting those properties to zero for the entire HTML document and any other tag selectors we want to redefine from scratch*/
+html h1 {
+  margin: 0;
+
+}
+
+
+/**** CSS Styles for body: ****/
+body {
+  font-size: 2.0em;
+  font-family: "Helvetica Neue", Helvetica, Verdana, sans-serif;
+  background-color: #FFFFFF;
+}
+
+.container{
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  background-color:gray;
+}
+
+
+/**** Header ****/
+.page_heading {
+	color: blue;
+
+}
+
+.contact_information a{
+	color: black;
+}
+
+
+
+
+/**** Primary Nav Bar Top ****/
+.primary_nav{
+
+}
+
+.primary_nav li{
+  display: inline;
+}
+
+.primary_nav a{
+  display:inline-block;
+  padding: 10px;
+  color: green;
+
+}
+
+
+
+
+/**** Local Nav Bar Left ****/
+.local_nav{
+  float:left;
+  width:20%;
+  background-color: lightgray;
+  min-height: 300px;
+}
+
+.local_nav li{
+  padding: 10px;
+}
+
+.local_nav a{
+  
+  color: blue;
+
+}
+
+
+
+/**** Main body ****/
+.main{
+  float:left;
+  width:80%;
+  background-color: darkgray;
+}
+
+.main h1{
+  font-size: 1.25em;
+  color:black;
+
+}
+
+.main h2{
+  font-size: 1.0em;
+  color:black;
+
+}
+
+.main p{
+  font-size: .75em;
+  color:black;
+
+}
+
+
+
+
+/**** footer ****/
+.footer {
+  color: black;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
