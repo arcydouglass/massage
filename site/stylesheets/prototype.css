@@ -59,6 +59,21 @@ body {
 
 }
 
+.nav_bar{
+
+
+}
+
+.drop_down{
+
+
+}
+
+.drop_down a {
+  color: red;
+
+}
+
 
 
 
@@ -107,6 +122,11 @@ body {
   font-size: .75em;
   color:black;
 
+}
+
+.testamonials{
+
+  
 }
 
 
