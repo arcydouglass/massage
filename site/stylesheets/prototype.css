@@ -49,12 +49,12 @@ body {
 }
 
 .primary_nav li{
+  margin-left: 20%;
   display: inline;
 }
 
 .primary_nav a{
   display:inline-block;
-  padding: 10px;
   color: green;
 
 }
@@ -66,6 +66,7 @@ body {
 .local_nav{
   float:left;
   width:20%;
+  height: 500px;
   background-color: lightgray;
   min-height: 300px;
 }
@@ -75,7 +76,6 @@ body {
 }
 
 .local_nav a{
-  
   color: blue;
 
 }
@@ -85,7 +85,9 @@ body {
 /**** Main body ****/
 .main{
   float:left;
-  width:80%;
+  width:77%;
+  height: 500px;
+
   background-color: darkgray;
 }
 
@@ -110,7 +112,7 @@ body {
 
 
 
-/**** footer ****/
+/**** Footer ****/
 .footer {
   color: black;
 
