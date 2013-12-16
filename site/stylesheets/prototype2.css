@@ -1,0 +1,125 @@
+/* 
+
+This file contains all your CSS style rules. 
+indent = 2 spaces, not tabs 
+
+Reference: http://www.w3schools.com/css/default.asp
+
+colors:
+#649ABF
+#43667F
+#85CDFF
+#213340
+#78B8E5
+
+*/
+
+/* because every browser has a built in stylesheet we have to reset those properties that we want to manipulate later. We do this by setting those properties to zero for the entire HTML document and any other tag selectors we want to redefine from scratch*/
+html h1 {
+  margin: 0;
+
+}
+
+/*=========================== CSS ============================*/
+body {
+  font-family: 'Helvetica Neue', sans-serif;
+  max-height: auto;
+  /* background: #649ABF; */
+  background: linear-gradient(to bottom, #649ABF, white );
+
+
+}
+
+h1 {
+  font-size: 3.00em;
+  font-weight: 100;
+  letter-spacing: -1.5px;
+}
+
+a {
+  font-size: 1.5em;
+  font-weight: 100;
+  letter-spacing: -1.5px;
+  text-transform: uppercase;
+}
+
+p {
+
+}
+
+.container {
+  width: 90%;
+  max-width: 1000px
+}
+
+
+/*=========================== Header ============================*/
+img.align-center-logo {
+  display: block;
+  margin: 10px auto;
+}
+
+.name {
+  margin: 20px;
+  text-align: center;
+  font-color: #213340;
+  /* text-transform: uppercase; */
+}
+
+ul.nav {
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  /* background-color: #78B8E5; */
+}
+
+ul.nav li {
+  display: inline;
+}
+
+ul.nav a {
+  text-decoration: none;
+  display: inline-block;
+  margin: 0px 50px;
+  padding: 0px;
+  color: #213340;
+}
+
+/*=========================== Main ============================*/
+.main {
+
+}
+
+img.align-center-image {
+  display: inline-block;
+  margin: 30px 40px auto;
+  padding: 10px 0px;
+}
+
+
+
+/*=========================== Footer ============================*/
+.footer{
+  border-top: 2px solid #78B8E5;
+  padding: 10px 0;
+  margin: 40px 0;
+  text-align: center;
+  font-size: 1.00em;
+  font-weight: 100;
+  letter-spacing: -1.25px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

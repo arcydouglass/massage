@@ -9,11 +9,14 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 
-    <title>Our_Title</title>  <!-- Replace with our title -->
+    <title>Blueprint for Wellness</title>  <!-- Replace with our title -->
 
     <!-- The "link" tag identifies your external CSS style sheet. Edit this link to use your particular file  -->
-    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" />
-    <link rel="stylesheet" type="text/css" href="stylesheets/prototype.css" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen"/>
+    <link rel="stylesheet" type="text/css" href="stylesheets/960_12_col_rtl.css" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/grid.css" media="screen"/>
+    <link rel="stylesheet" type="text/css" href="stylesheets/prototype.css" media="screen" /> 
+    <link href='http://fonts.googleapis.com/css?family=Raleway+Dots' rel='stylesheet' type='text/css'>
   </head>
 
 
@@ -22,19 +25,16 @@
     <div class ="container"> <!-- Container for the entire page -->
       <!-- Header at the top of the page -->
       <section class = "header">
-        <div class="page_heading">
-         Our Title
-        </div> <!-- page_heading -->
-
-        <div class="contact_information">
-          <a href="mailto:contact@email.com">contact@email.com</a>
-        </div> <!--Contact Information -->
+    
+        <img src="http://placehold.it/1000x150">
+        <div class="page_heading">Blueprint for Wellness</div> <!-- page_heading -->
+       
      </section> <!-- .header -->
 
 
      <!-- Navigation bar at the top of the page -->
      <nav class = "primary_nav"> <!-- primary navigation -->
-      <ul class ="nav_bar">
+      <ul class ="nav_bar grid_1 alpha">
         <li><a href= "Primary1">Primary1</li>
         <li><a href= "Primary2">Primary2</li>
         <li><a href= "Primary3">Primary3</li>
@@ -42,14 +42,15 @@
      </nav> <!-- .primaryNav -->
 
 
-     <!-- Navigation bar at the left of the page -->
-     <nav class = "local_nav"> <!-- primary navigation -->
+     <!-- Navigation bar at the left of the page 
+     <nav class = "local_nav grid_1 alpha">
       <ul>
         <li><a href= "Local1">Local1</li>
         <li><a href= "Local2">Local2</li>
         <li><a href= "Local3">Local3</li>
       </ul>
-     </nav> <!-- .localNav -->
+     </nav> -->
+
 
 
 
@@ -76,6 +77,11 @@
       <section class="footer">
         <!-- edit the footer to include your name  -->
        Copyright &copy; 2013 <i>client name</i>
+
+        <div class="contact_information">
+          <a href="mailto:contact@email.com">contact@email.com</a>
+        </div> <!--Contact Information -->
+
       </section> <!-- footer -->
     </div>  <!-- .container -->
 
