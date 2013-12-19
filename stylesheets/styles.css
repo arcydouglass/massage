@@ -24,7 +24,7 @@ header img {
 
 
 p {
-	padding-top: 10px;
+	padding-top: 3.5%; /*10px*/
 	color: #333;
 }
 
@@ -39,23 +39,27 @@ a{
 	width: 85%;
 }
 
+img{
+	max-width:100%;
+}
+
 
 /*=========================== Navigation ============================*/
 
 nav {
-	padding-top: 10px;
+	padding-top: 1%;/*10px*/
 }
 
 nav li {
 	display: inline-block;
-	font-size: 20px;
-	padding: 15px 0 10px 0;
+	font-size: 1.25em;  /* was 20px */
+	padding: 1.5% 0 1% 0;/*15px 0 10px 0*/
 	text-align: center;
-	margin-left: 40px;
+	margin-left: 4%;/*40px*/
 }
 
 nav a {
-	padding: 10px 0;
+	padding: 1% 0;/* 10px 0*/
 	border-radius: 15px;
 }
 
@@ -81,20 +85,20 @@ nav a:hover {
 #topbar {
 	/*background-color: #684056;*/
 	/*border-top: 2px solid #685F64;*/
-	margin-top: 25px;
-	padding-top: 25px;
+	margin-top: 2.5%;/*25px*/
+	padding-top: 2.5%;/*25px*/
 }
 
 #topbar img {
-	-moz-border-radius: 100px;
+	-moz-border-radius: 10%;/*100px*/
 	border-radius: 125px;
-	margin-left: 25px;
-	margin-top: 25px;
+	margin-left: 10%;/*25px*/
+	margin-top: 10%;/*25px*/
 }
 
 
 #topbar li {
-	margin-left: 25px;
+	margin-left: 2.5%;/*25px*/
 	display: inline-block;
 	text-align: center;
 }
@@ -102,15 +106,15 @@ nav a:hover {
 #topbar p {
 	/* text-align: center;
 	margin-left: 60px; */
-	font-size: 18px;
+	font-size: 1.15em; /* was 18px */
 	font-weight: bold;
 	text-align: center;
-	padding-left: 30px;
+	padding-left: 10%;/*30px*/
 }
 
 #topbar a {
 	text-align: center;
-	width: 250px;
+	width: 25%;/*250px*/
 }
 
 .topbox {
@@ -122,28 +126,28 @@ nav a:hover {
 
 #main {
 	/*background-color: #E8D4DF;*/ 
-	padding-top: 20px;
-	padding-bottom: 20px;
+	padding-top: 2%;/*20px*/
+	padding-bottom: 2%;/*20px*/
 }
 
 /*=========================== Testimonials ============================*/
 
 .testimonials {
 	background-color: #649ABF;
-	height: 175px;
-	padding-top: 20px;
+	height: 240px;
+	padding-top: 2%;/*20px*/
 }
 
 .testimonials h2 {
-	font-size: 28px;
+	font-size: 1.8em; /* was 28px */
 	font-weight: bold;
-	padding-bottom: 20px;
+	padding-bottom: 2%;/*20px*/
 	color: #f0f8ff;
 }
 
 .intro::first-line {
 	/*font-weight: bold;*/
-	font-size: 18px;
+	font-size: 1.15em; /* was 18px */
 	color: #f0f8ff;
 }
 
@@ -151,10 +155,10 @@ nav a:hover {
 	/*font-weight: bold;*/
 	float: left;
 	color: #f0f8ff;
-	margin: 0 10px 5px 0;
-	padding: 5px 10px;
+	margin: 0 1% 5% 0;/* 0 10px 5px 0 */
+	padding: 1% 2%;/*5px 10px*/
 	background: #305872;
-	font-size: 50px;
+	font-size: 2.75em;/* was 50px */
 	line-height: 1;
 	box-shadow: 3px 3px 5px #343B3F;
 
@@ -165,8 +169,8 @@ nav a:hover {
 
 footer {
 	background-color: #305872;
-	padding-top: 20px;
-	height: 150px;
+	padding-top: 2%;/*20px*/
+	height: 170px;
 	color: #f0f8ff;
 }
 
@@ -175,8 +179,8 @@ footer p {
 }
 
 footer h3 {
-	font-size: 20px;
-	padding-bottom: 15px;
+	font-size: 1.25em; /* was 20px */
+	padding-bottom: 1.5%;/*15px*/
 }
 
 footer a {
@@ -228,3 +232,37 @@ footer a[href^="tel:"]:before {
 .showit {
 	visibility: visible;
 }
+
+
+/*=========================== Media Queries ============================*/
+
+/* -----Small ------*/
+
+@media screen and ( max-width: 640px){
+	.grid_1,
+	.grid_2,
+	.grid_3,
+	.grid_4,
+	.grid_5,
+	.grid_6,
+	.grid_7,
+	.grid_8,
+	.grid_9,
+	.grid_10,
+	.grid_11,
+	.grid_12 {
+		width:100%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
