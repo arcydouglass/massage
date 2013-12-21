@@ -1,0 +1,268 @@
+/*=========================== CSS styling ============================*/
+
+html {
+  min-height: 100%;
+}
+
+.container {
+  position: relative;
+  margin: 0 auto;
+  width: 90%;
+  max-width: 1000px;
+}
+
+body {
+	color: #333;
+	background: linear-gradient(to bottom, #649ABF, white );
+	font-family: Questrial, Arial, sans-serif;
+}
+
+
+header img {
+	width: 100%;
+}
+
+
+p {
+	padding-top: 3.5%; /*10px*/
+	color: #333;
+}
+
+a{
+	text-decoration: none;
+	color: #f0f8ff;
+	font-weight: bold;
+}
+
+.sectionbreak {
+	border-top: 2px solid #78B8E5;
+	width: 85%;
+}
+
+img{
+	max-width:100%;
+}
+
+
+/*=========================== Navigation ============================*/
+
+nav {
+	padding-top: 1%;/*10px*/
+}
+
+nav li {
+	display: inline-block;
+	font-size: 1.25em;  /* was 20px */
+	padding: 1.5% 0 1% 0;/*15px 0 10px 0*/
+	text-align: center;
+	margin-left: 4%;/*40px*/
+}
+
+nav a {
+	padding: 1% 0;/* 10px 0*/
+	border-radius: 15px;
+}
+
+nav a:link {
+	background: linear-gradient(to top, #649ABF, white );
+	/*background-color: #f0f8ff;*/
+	color: #333;
+	padding: 10px 15px;
+
+}
+
+nav a:hover {
+	background: linear-gradient(to top, #305872, white );
+	/*background-color: #305872;*/
+	color: #f0f8ff;
+	padding: 10px 15px;
+
+}
+
+
+/*=========================== Topbar ============================*/
+
+#topbar {
+	/*background-color: #684056;*/
+	/*border-top: 2px solid #685F64;*/
+	margin-top: 2.5%;/*25px*/
+	padding-top: 2.5%;/*25px*/
+}
+
+#topbar img {
+	-moz-border-radius: 10%;/*100px*/
+	border-radius: 125px;
+	margin-left: 10%;/*25px*/
+	margin-top: 10%;/*25px*/
+}
+
+
+#topbar li {
+	margin-left: 2.5%;/*25px*/
+	display: inline-block;
+	text-align: center;
+}
+
+#topbar p {
+	/* text-align: center;
+	margin-left: 60px; */
+	font-size: 1.15em; /* was 18px */
+	font-weight: bold;
+	text-align: center;
+	padding-left: 10%;/*30px*/
+}
+
+#topbar a {
+	text-align: center;
+	width: 25%;/*250px*/
+}
+
+.topbox {
+	width: 260px;
+}
+
+
+/*=========================== Main ============================*/
+
+#main {
+	/*background-color: #E8D4DF;*/ 
+	padding-top: 2%;/*20px*/
+	padding-bottom: 2%;/*20px*/
+}
+
+/*=========================== Testimonials ============================*/
+
+.testimonials {
+	background-color: #649ABF;
+	height: 240px;
+	padding-top: 2%;/*20px*/
+}
+
+.testimonials h2 {
+	font-size: 1.8em; /* was 28px */
+	font-weight: bold;
+	padding-bottom: 2%;/*20px*/
+	color: #f0f8ff;
+}
+
+.intro::first-line {
+	/*font-weight: bold;*/
+	font-size: 1.15em; /* was 18px */
+	color: #f0f8ff;
+}
+
+.intro::first-letter {
+	/*font-weight: bold;*/
+	float: left;
+	color: #f0f8ff;
+	margin: 0 1% 5% 0;/* 0 10px 5px 0 */
+	padding: 1% 2%;/*5px 10px*/
+	background: #305872;
+	font-size: 2.75em;/* was 50px */
+	line-height: 1;
+	box-shadow: 3px 3px 5px #343B3F;
+
+}
+
+
+/*=========================== Footer ============================*/
+
+footer {
+	background-color: #305872;
+	padding-top: 2%;/*20px*/
+	height: 170px;
+	color: #f0f8ff;
+}
+
+footer p {
+	color: #f0f8ff;
+}
+
+footer h3 {
+	font-size: 1.25em; /* was 20px */
+	padding-bottom: 1.5%;/*15px*/
+}
+
+footer a {
+	font-weight: normal;
+}
+
+footer a[href^="tel:"] {
+	color: #f0f8ff;
+	font-weight: normal;
+}
+
+footer a[href^="tel:"]:before { 
+	content: "\2706";
+}
+
+.copyright {
+	float: right;
+}
+
+
+/*=========================== Div class toolkit ============================*/
+
+/*These properties can be used to float, align, remove or hide certain elements in your html.*/
+
+.clearit {
+	clear: both;
+}
+
+.rightit {
+	text-align: right;
+}
+
+.centerit {
+	text-align: center;
+}
+
+.removeit {
+	display: none;
+}
+
+.includeit {
+	display: block;
+}
+
+.hideit {
+	visibility: hidden;
+}
+
+.showit {
+	visibility: visible;
+}
+
+
+/*=========================== Media Queries ============================*/
+
+/* -----Small ------*/
+
+@media screen and ( max-width: 640px){
+	.grid_1,
+	.grid_2,
+	.grid_3,
+	.grid_4,
+	.grid_5,
+	.grid_6,
+	.grid_7,
+	.grid_8,
+	.grid_9,
+	.grid_10,
+	.grid_11,
+	.grid_12 {
+		width:100%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
