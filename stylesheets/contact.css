@@ -145,13 +145,13 @@ nav a:hover {
 	color: #f0f8ff;
 }
 
-.intro::first-line {
+.contact::first-line {
 	/*font-weight: bold;*/
 	font-size: 1.15em; /* was 18px */
 	color: #f0f8ff;
 }
 
-.intro::first-letter {
+.contact::first-letter {
 	/*font-weight: bold;*/
 	float: left;
 	color: #f0f8ff;
@@ -163,7 +163,23 @@ nav a:hover {
 	box-shadow: 3px 3px 5px #343B3F;
 
 }
+blockquote {
+	background: #f9f9f9;
+	border-left: 10px solid #ccc;
+	border-radius: 5px;
+	margin: .5em 10px;
+	padding: 0.5em 10px;
+	quotes: "\201C""\201D""\2018""\2019";
+}
 
+blockquote:before {
+  content: open-quote;
+  font-size: 2em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+  color: #47A3B0;
+}
 
 /*=========================== Footer ============================*/
 
