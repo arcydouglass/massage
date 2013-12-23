@@ -134,7 +134,7 @@ nav a:hover {
 
 .testimonials {
 	background-color: #649ABF;
-	height: 240px;
+	height: 240px;/*20px*/
 	padding-top: 2%;/*20px*/
 }
 
