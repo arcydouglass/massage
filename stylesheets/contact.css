@@ -145,13 +145,13 @@ nav a:hover {
 	color: #f0f8ff;
 }
 
-.contact::first-line {
+.contactp::first-line {
 	/*font-weight: bold;*/
 	font-size: 1.15em; /* was 18px */
 	color: #f0f8ff;
 }
 
-.contact::first-letter {
+.contactp::first-letter {
 	/*font-weight: bold;*/
 	float: left;
 	color: #f0f8ff;
