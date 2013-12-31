@@ -255,8 +255,7 @@ footer a[href^="tel:"]:before {
 /*=========================== Media Queries ============================*/
 
 /* -----Small ------*/
-
-@media screen and ( max-width: 480px){
+@media screen and ( max-width: 500px){
 	.grid_1,
 	.grid_2,
 	.grid_3,
@@ -275,18 +274,19 @@ footer a[href^="tel:"]:before {
 	nav li{
 		padding: 4% 0;
 		width:100%;  /* Determines if  the buttons are in one row or two */
+		text-align: center;
 	}
 
 	nav a{
 		border-radius:0;
-		padding: 0 10%;
 		margin:0;
 	}
 
-	.centerit{
-		width:100%;
-		text-align:left;
+	img{
+		text-align: center;
 	}
+
+	
 }
 
 
