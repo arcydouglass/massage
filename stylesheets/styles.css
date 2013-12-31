@@ -182,6 +182,21 @@ blockquote:before {
   color: #47A3B0;
 }
 
+/*=========================== Google Map Styles ============================*/
+.fluid-wrapper {
+    position: relative;
+   	margin-top: 20px;
+    padding-bottom: 56.25%; /* 16:9 */
+    height: 0;
+}
+.fluid-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+        border: none;
+}
 
 /*=========================== Footer ============================*/
 
