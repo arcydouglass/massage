@@ -256,7 +256,7 @@ footer a[href^="tel:"]:before {
 
 /* -----Small ------*/
 
-@media screen and ( max-width: 640px){
+@media screen and ( max-width: 480px){
 	.grid_1,
 	.grid_2,
 	.grid_3,
@@ -268,11 +268,31 @@ footer a[href^="tel:"]:before {
 	.grid_9,
 	.grid_10,
 	.grid_11,
-	.grid_12 {
-		width:100%;
+	.grid_12{
+		width:100%,
+	}
 
+	nav li{
+		padding: 4% 0;
+		width:100%;  /* Determines if  the buttons are in one row or two */
+	}
+
+	nav a{
+		border-radius:0;
+		padding: 0 10%;
+		margin:0;
+	}
+
+	.centerit{
+		width:100%;
+		text-align:left;
+	}
 }
 
+
+
+	
+	
 
 
 
