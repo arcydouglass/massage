@@ -8,7 +8,11 @@ html {
   position: relative;
   margin: 0 auto;
   width: 90%;
-  max-width: 1000px;
+  max-width: 950px;
+}
+
+.containter .nav {
+	width:100%;
 }
 
 body {
@@ -66,6 +70,7 @@ nav ul {
 	list-style: none;
 	position: relative;
 	display: inline-table;
+
 }
 	nav ul:after {
 		content: ""; clear: both; display: block;
@@ -325,9 +330,10 @@ footer a[href^="tel:"]:before {
 	}
 
 	nav li{
-		padding: 4% 0;
+		padding: 0;
 		width:100%;  /* Determines if  the buttons are in one row or two */
 		text-align: center;
+		border-top: 2px solid #78B8E5;
 	}
 
 	nav a{
