@@ -38,6 +38,10 @@
 		margin:0;
 	}
 
+	.sectionbreak {
+	border-top: 0px solid #efefef;
+	}
+
 	.selection{
 		display:none;
 	}
@@ -73,6 +77,10 @@
 		text-align: center;
 		display:list-item;
 		border-top: 2px solid #efefef;
+	}
+
+	.sectionbreak {
+	border-top: 0px solid #efefef;
 	}
 
 	nav a{
