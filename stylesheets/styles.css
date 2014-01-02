@@ -148,19 +148,19 @@ nav a:hover {
 .intro::first-line {
 	/*font-weight: bold;*/
 	font-size: 1.15em; /* was 18px */
-	color: #f0f8ff;
+	/*color: #f0f8ff;*/
 }
 
 .intro::first-letter {
 	/*font-weight: bold;*/
 	float: left;
 	color: #f0f8ff;
-	margin: 0 1% 5% 0;/* 0 10px 5px 0 */
-	padding: 1% 2%;/*5px 10px*/
-	background: #305872;
+	margin: 0 0 0 0;/* 0 10px 5px 0 */
+	/*padding: .5% 1.5%; /*5px 10px*/
+	/*background: #305872;*/
 	font-size: 2.75em;/* was 50px */
 	line-height: 1;
-	box-shadow: 3px 3px 5px #343B3F;
+	/*box-shadow: 2px 2px 4px #343B3F;*/
 
 }
 
