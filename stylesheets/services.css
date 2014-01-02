@@ -1,0 +1,16 @@
+.menu-item p, .menu-item h1 {
+	padding: 0 0 20px 0;
+}
+.menu-item h2 {
+	font-size: 1.5em;
+	font-weight: 800;
+}
+.menu-item h3 {
+	font-size: 1.2em;
+}
+.menu-item h1 {
+	font-size: 1.5em;
+	font-weight: 800;
+	text-decoration: underline;
+}
+
