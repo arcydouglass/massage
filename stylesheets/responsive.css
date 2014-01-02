@@ -1,7 +1,7 @@
 /*=========================== Media Queries ============================*/
 
 /* -----Small ------*/
-@media screen and ( max-width: 500px){
+@media screen and ( max-width: 400px){
 	.grid_1,
 	.grid_2,
 	.grid_3,
@@ -38,14 +38,20 @@
 		margin:0;
 	}
 
-	#centerit{
+	.selection{
 		display:none;
 	}
 
+	.image {
+		display:none;
+	}
+
+
 }
 
+
 /* ----- Medium ------*/
-@media screen and ( min-width: 500px, max-width: 900px){
+@media screen and ( min-width: 400px ) and (max-width: 750px){
 	.grid_1,
 	.grid_2,
 	.grid_3,
@@ -58,14 +64,15 @@
 	.grid_10,
 	.grid_11,
 	.grid_12{
-		width:50%,
+		width:100%,
 	}
 
 	nav li{
 		padding: 4% 0;
-		width:50%;  /* Determines if  the buttons are in one row or two */
+		width:100%;  /* Determines if  the buttons are in one row or two */
 		text-align: center;
 		display:list-item;
+		border-top: 2px solid #efefef;
 	}
 
 	nav a{
@@ -75,6 +82,10 @@
 
 	img{
 		text-align: center;
+	}
+
+	.selection {
+		display:none;
 	}
 
 	
