@@ -1,0 +1,104 @@
+/*=========================== Media Queries ============================*/
+
+/* -----Small ------*/
+@media screen and ( max-width: 450px){
+	.grid_1,
+	.grid_2,
+	.grid_3,
+	.grid_4,
+	.grid_5,
+	.grid_6,
+	.grid_7,
+	.grid_8,
+	.grid_9,
+	.grid_10,
+	.grid_11,
+	.grid_12{
+		width:50%,
+	}
+
+	.alpha, .omega {
+		text-align: left;
+	}
+
+
+	nav li+li { 
+	border-left: 0px solid #efefef;
+	}
+
+	nav li{
+		padding: 0;
+		width:100%;  /* Determines if  the buttons are in one row or two */
+		text-align: center;
+		border-top: 2px solid #efefef;
+	}
+
+	nav a{
+		border-radius:0;
+		margin:0;
+	}
+
+	.sectionbreak {
+	border-top: 0px solid #efefef;
+	}
+
+	.selection{
+		display:none;
+	}
+
+	.image {
+		display:none;
+	}
+
+
+}
+
+
+/* ----- Medium ------*/
+@media screen and ( min-width: 450px ) and (max-width: 1000px){
+	.grid_1,
+	.grid_2,
+	.grid_3,
+	.grid_4,
+	.grid_5,
+	.grid_6,
+	.grid_7,
+	.grid_8,
+	.grid_9,
+	.grid_10,
+	.grid_11,
+	.grid_12{
+		width:100%,
+	}
+
+	nav li{
+		padding: 1% 0;
+		width:33%;  /* Determines if  the buttons are in one row or two */
+		text-align: center;
+		display:list-item;
+		border-top: 2px solid #efefef;
+	}
+
+	.sectionbreak {
+	border-left: 2px solid #efefef;
+	}
+
+	nav a{
+		border-radius:0;
+		margin:0;
+	}
+
+	img{
+		text-align: center;
+	}
+
+	.selection {
+		display:none;
+	}
+
+	nav li+li { 
+	border-left: 0px solid #efefef;
+}
+
+	
+}
