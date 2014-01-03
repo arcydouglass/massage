@@ -217,6 +217,22 @@ nav ul ul ul {
 	text-decoration: underline;
 }
 
+/*--------------------Contact---------------------------------*/
+Input[type="text"]{
+	width:400px;
+	height:20px;
+}
+
+Textarea[name="address"]{
+	width:400px;
+	height:50px;
+	margin-bottom: 1.75%;	
+}
+
+Input[value=""]{
+	margin-bottom: 1.75%;
+}
+
 /*=====================Resources Page=========================*/
 
 .resource_img img{
