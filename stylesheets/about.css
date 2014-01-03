@@ -8,7 +8,11 @@ html {
   position: relative;
   margin: 0 auto;
   width: 90%;
-  max-width: 1000px;
+  max-width: 945px;
+}
+
+.containter .nav {
+	width:100%;
 }
 
 body {
@@ -35,8 +39,8 @@ a{
 }
 
 .sectionbreak {
-	border-top: 2px solid #78B8E5;
-	width: 85%;
+	border-top: 2px solid #efefef;
+	width: 70%;
 }
 
 img{
@@ -45,7 +49,6 @@ img{
 
 
 /*=========================== Navigation ============================*/
-
 
 nav ul ul {
 	display: none;
@@ -130,7 +133,6 @@ nav ul ul ul {
 }
 
 
-
 /*=========================== Topbar ============================*/
 
 #topbar {
@@ -181,12 +183,35 @@ nav ul ul ul {
 	padding-bottom: 2%;/*20px*/
 }
 
+/*--------------------About---------------------------------*/
+
+#topbar {
+	display: none;
+}
+
+.about_txt {
+	line-height: 1.5em;
+	margin: 0 1.25% 5% 0;
+	padding: 2% 2%;
+}
+
+.about_txt a {
+	font-weight: normal;
+	color: #333;
+}
+
+.about_txt a:hover {
+	text-decoration: underline;
+}
+
+
+
 /*=========================== Testimonials ============================*/
 
 .testimonials {
 	background-color: #649ABF;
-	height: 240px;/*20px*/
 	padding-top: 2%;/*20px*/
+	padding-bottom: 2%;/*20px*/
 }
 
 .testimonials h2 {
@@ -196,13 +221,13 @@ nav ul ul ul {
 	color: #f0f8ff;
 }
 
-.feedbackp::first-line {
+.intro::first-line {
 	/*font-weight: bold;*/
 	font-size: 1.15em; /* was 18px */
 	/*color: #f0f8ff;*/
 }
 
-.feedbackp::first-letter {
+.intro::first-letter {
 	/*font-weight: bold;*/
 	float: left;
 	color: #f0f8ff;
@@ -214,6 +239,7 @@ nav ul ul ul {
 	/*box-shadow: 2px 2px 4px #343B3F;*/
 
 }
+
 blockquote {
 	background: #f9f9f9;
 	border-left: 10px solid #ccc;
@@ -230,6 +256,22 @@ blockquote:before {
   margin-right: 0.25em;
   vertical-align: -0.4em;
   color: #47A3B0;
+}
+
+/*=========================== Google Map Styles ============================*/
+.fluid-wrapper {
+    position: relative;
+   	margin-top: 20px;
+    padding-bottom: 56.25%; /* 16:9 */
+    height: 0;
+}
+.fluid-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+        border: none;
 }
 
 /*=========================== Footer ============================*/
@@ -301,11 +343,12 @@ footer a[href^="tel:"]:before {
 }
 
 
-/*=========================== Media Queries ============================*/
 
-/* -----Small ------*/
 
-@media screen and ( max-width: 640px){
+
+
+/* ----- Medium ------*/
+@media screen and ( max-width: 750px){
 	.grid_1,
 	.grid_2,
 	.grid_3,
@@ -317,11 +360,32 @@ footer a[href^="tel:"]:before {
 	.grid_9,
 	.grid_10,
 	.grid_11,
-	.grid_12 {
-		width:100%;
+	.grid_12{
+		width:50%,
+	}
 
+	nav li{
+		padding: 4% 0;
+		width:50%;  /* Determines if  the buttons are in one row or two */
+		text-align: center;
+	}
+
+	nav a{
+		border-radius:0;
+		margin:0;
+	}
+
+	img{
+		text-align: center;
+	}
+
+	
 }
 
+
+
+	
+	
 
 
 
