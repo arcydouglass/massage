@@ -184,6 +184,23 @@ nav ul ul ul {
 	padding-bottom: 2%;/*20px*/
 }
 
+/*--------------------About---------------------------------*/
+
+.about_txt {
+	line-height: 1.5em;
+	margin: 0 1.25% 5% 0;
+	padding: 2% 2%;
+}
+
+.about_txt a {
+	font-weight: normal;
+	color: #333;
+}
+
+.about_txt a:hover {
+	text-decoration: underline;
+}
+
 /*=====================Resources Page=========================*/
 
 .resource_img img{
