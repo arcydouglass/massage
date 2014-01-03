@@ -1,7 +1,7 @@
 /*=========================== Media Queries ============================*/
 
 /* -----Small ------*/
-@media screen and ( max-width: 400px){
+@media screen and ( max-width: 450px){
 	.grid_1,
 	.grid_2,
 	.grid_3,
@@ -14,7 +14,7 @@
 	.grid_10,
 	.grid_11,
 	.grid_12{
-		width:100%,
+		width:50%,
 	}
 
 	.alpha, .omega {
@@ -55,7 +55,7 @@
 
 
 /* ----- Medium ------*/
-@media screen and ( min-width: 400px ) and (max-width: 750px){
+@media screen and ( min-width: 450px ) and (max-width: 1000px){
 	.grid_1,
 	.grid_2,
 	.grid_3,
@@ -72,15 +72,15 @@
 	}
 
 	nav li{
-		padding: 4% 0;
-		width:100%;  /* Determines if  the buttons are in one row or two */
+		padding: 1% 0;
+		width:33%;  /* Determines if  the buttons are in one row or two */
 		text-align: center;
 		display:list-item;
 		border-top: 2px solid #efefef;
 	}
 
 	.sectionbreak {
-	border-top: 0px solid #efefef;
+	border-left: 2px solid #efefef;
 	}
 
 	nav a{
@@ -95,6 +95,10 @@
 	.selection {
 		display:none;
 	}
+
+	nav li+li { 
+	border-left: 0px solid #efefef;
+}
 
 	
 }
