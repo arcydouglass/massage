@@ -11,6 +11,7 @@ html {
   max-width: 945px;
 }
 
+
 .containter .nav {
 	width:100%;
 }
@@ -324,40 +325,6 @@ footer a[href^="tel:"]:before {
 
 
 
-/* ----- Medium ------*/
-@media screen and ( max-width: 750px){
-	.grid_1,
-	.grid_2,
-	.grid_3,
-	.grid_4,
-	.grid_5,
-	.grid_6,
-	.grid_7,
-	.grid_8,
-	.grid_9,
-	.grid_10,
-	.grid_11,
-	.grid_12{
-		width:50%,
-	}
-
-	nav li{
-		padding: 4% 0;
-		width:50%;  /* Determines if  the buttons are in one row or two */
-		text-align: center;
-	}
-
-	nav a{
-		border-radius:0;
-		margin:0;
-	}
-
-	img{
-		text-align: center;
-	}
-
-	
-}
 
 
 
