@@ -8,7 +8,11 @@ html {
   position: relative;
   margin: 0 auto;
   width: 90%;
-  max-width: 1000px;
+  max-width: 945px;
+}
+
+.containter .nav {
+	width:100%;
 }
 
 body {
@@ -35,8 +39,8 @@ a{
 }
 
 .sectionbreak {
-	border-top: 2px solid #78B8E5;
-	width: 85%;
+	border-top: 2px solid #efefef;
+	width: 70%;
 }
 
 img{
@@ -46,37 +50,86 @@ img{
 
 /*=========================== Navigation ============================*/
 
-nav {
-	padding-top: 1%;/*10px*/
+nav ul ul {
+	display: none;
 }
 
-nav li {
-	display: inline-block;
-	font-size: 1.25em;  /* was 20px */
-	padding: 1.5% 0 1% 0;/*15px 0 10px 0*/
-	text-align: center;
-	margin-left: 4%;/*40px*/
-}
+	nav ul li:hover > ul {
+		display: block;
+	}
 
-nav a {
-	padding: 1% 0;/* 10px 0*/
-	border-radius: 15px;
-}
-
-nav a:link {
-	background: linear-gradient(to top, #649ABF, white );
-	/*background-color: #f0f8ff;*/
-	color: #333;
-	padding: 10px 15px;
+nav ul li a{
+  	color: #333;
 
 }
 
-nav a:hover {
-	background: linear-gradient(to top, #305872, white );
-	/*background-color: #305872;*/
-	color: #f0f8ff;
-	padding: 10px 15px;
 
+nav ul {
+	margin: 0px;
+	background: #efefef; 
+	background: linear-gradient(top, #efefef 0%, #bbbbbb 100%);  
+	background: -moz-linear-gradient(top, #efefef 0%, #bbbbbb 100%); 
+	background: -webkit-linear-gradient(top, #efefef 0%,#bbbbbb 100%); 
+	box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
+	padding: 0 18px;
+	border-radius: 10px;  
+	list-style: none;
+	position: relative;
+	display: inline-table;
+
+}
+	nav ul:after {
+		content: ""; 
+		clear: both; 
+		display: block;
+	}
+
+
+nav li+li { 
+	border-left: 1px solid #efefef;
+}
+
+
+nav ul li {
+	float: left;
+}
+	nav ul li:hover {
+		background: #4b545f;
+		background: linear-gradient(top, #4f5964 0%, #5f6975 40%);
+		background: -moz-linear-gradient(top, #4f5964 0%, #5f6975 40%);
+		background: -webkit-linear-gradient(top, #4f5964 0%,#5f6975 40%);
+	}
+		nav ul li:hover a {
+			color: #fff;
+		}
+	
+	nav ul li a {
+		display: block; padding: 15px 40px;
+	}
+
+
+nav ul ul {
+	background: #5f6975; border-radius: 0px; padding: 0;
+	position: absolute; top: 100%;
+}
+	nav ul ul li {
+		float: none; 
+		border-top: 1px solid #6b727c;
+		border-bottom: 1px solid #575f6a;
+		position: relative;
+	}
+		nav ul ul li a {
+			padding: 15px 40px;
+			color: #fff;
+		}	
+			nav ul ul li a:hover {
+				background: #4b545f;
+			}
+
+
+
+nav ul ul ul {
+	position: absolute; left: 100%; top:0;
 }
 
 
@@ -129,100 +182,6 @@ nav a:hover {
 	padding-top: 2%;/*20px*/
 	padding-bottom: 2%;/*20px*/
 }
-
-/*=========================== Testimonials ============================*/
-
-.testimonials {
-	background-color: #649ABF;
-	height: 240px;
-	padding-top: 2%;/*20px*/
-}
-
-.testimonials h2 {
-	font-size: 1.8em; /* was 28px */
-	font-weight: bold;
-	padding-bottom: 2%;/*20px*/
-	color: #f0f8ff;
-	font-variant: small-caps;
-}
-
-.intro::first-line {
-	/*font-weight: bold;*/
-	font-size: 1.15em; /* was 18px */
-	color: #f0f8ff;
-}
-
-.intro::first-letter {
-	/*font-weight: bold;*/
-	float: left;
-	color: #f0f8ff;
-	margin: 0 1.25% 5% 0;/* 0 10px 5px 0 */
-	padding: 1% 2%;/*5px 10px*/
-	background: #305872;
-	font-size: 2.75em;/* was 50px */
-	line-height: 1;
-	box-shadow: 3px 3px 5px #343B3F;
-
-}
-
-blockquote {
-	background: #f9f9f9;
-	border-left: 10px solid #ccc;
-	border-radius: 5px;
-	margin: .5em 10px;
-	padding: 0.5em 10px;
-	quotes: "\201C""\201D""\2018""\2019";
-	box-shadow: 5px 5px 10px #305872;
-}
-
-blockquote:before {
-  content: open-quote;
-  font-size: 2em;
-  line-height: 0.1em;
-  margin-right: 0.25em;
-  vertical-align: -0.4em;
-  color: #47A3B0;
-}
-
-/*=========================== Footer ============================*/
-
-footer {
-	background-color: #305872;
-	padding-top: 2%;/*20px*/
-	height: 170px;
-	color: #f0f8ff;
-}
-
-footer p {
-	color: #f0f8ff;
-}
-
-footer h3 {
-	font-size: 1.25em; /* was 20px */
-	padding-bottom: 1.5%;/*15px*/
-}
-
-footer a {
-	font-weight: normal;
-}
-
-footer a[href^="tel:"] {
-	color: #f0f8ff;
-	font-weight: normal;
-}
-
-footer a[href^="tel:"]:before { 
-	content: "\2706";
-}
-
-.social {
-	text-align: right;
-}
-
-.copyright {
-	float: right;
-}
-
 
 /*=====================Resources Page=========================*/
 #topbar {
@@ -289,6 +248,110 @@ footer a[href^="tel:"]:before {
 	font-size: 1em;
 }
 
+/*=========================== Testimonials ============================*/
+
+.testimonials {
+	background-color: #649ABF;
+	padding-top: 2%;/*20px*/
+	padding-bottom: 2%;/*20px*/
+}
+
+.testimonials h2 {
+	font-size: 1.8em; /* was 28px */
+	font-weight: bold;
+	padding-bottom: 2%;/*20px*/
+	color: #f0f8ff;
+}
+
+.intro::first-line {
+	/*font-weight: bold;*/
+	font-size: 1.15em; /* was 18px */
+	/*color: #f0f8ff;*/
+}
+
+.intro::first-letter {
+	/*font-weight: bold;*/
+	float: left;
+	color: #f0f8ff;
+	margin: 0 0 0 0;/* 0 10px 5px 0 */
+	/*padding: .5% 1.5%; /*5px 10px*/
+	/*background: #305872;*/
+	font-size: 2.75em;/* was 50px */
+	line-height: 1;
+	/*box-shadow: 2px 2px 4px #343B3F;*/
+
+}
+
+blockquote {
+	background: #f9f9f9;
+	border-left: 10px solid #ccc;
+	border-radius: 5px;
+	margin: .5em 10px;
+	padding: 0.5em 10px;
+	quotes: "\201C""\201D""\2018""\2019";
+}
+
+blockquote:before {
+  content: open-quote;
+  font-size: 2em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+  color: #47A3B0;
+}
+
+/*=========================== Google Map Styles ============================*/
+.fluid-wrapper {
+    position: relative;
+   	margin-top: 20px;
+    padding-bottom: 56.25%; /* 16:9 */
+    height: 0;
+}
+.fluid-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+        border: none;
+}
+
+/*=========================== Footer ============================*/
+
+footer {
+	background-color: #305872;
+	padding-top: 2%;/*20px*/
+	height: 170px;
+	color: #f0f8ff;
+}
+
+footer p {
+	color: #f0f8ff;
+}
+
+footer h3 {
+	font-size: 1.25em; /* was 20px */
+	padding-bottom: 1.5%;/*15px*/
+}
+
+footer a {
+	font-weight: normal;
+}
+
+footer a[href^="tel:"] {
+	color: #f0f8ff;
+	font-weight: normal;
+}
+
+footer a[href^="tel:"]:before { 
+	content: "\2706";
+}
+
+.copyright {
+	float: right;
+}
+
+
 /*=========================== Div class toolkit ============================*/
 
 /*These properties can be used to float, align, remove or hide certain elements in your html.*/
@@ -322,11 +385,12 @@ footer a[href^="tel:"]:before {
 }
 
 
-/*=========================== Media Queries ============================*/
 
-/* -----Small ------*/
 
-@media screen and ( max-width: 640px){
+
+
+/* ----- Medium ------*/
+@media screen and ( max-width: 750px){
 	.grid_1,
 	.grid_2,
 	.grid_3,
@@ -338,11 +402,32 @@ footer a[href^="tel:"]:before {
 	.grid_9,
 	.grid_10,
 	.grid_11,
-	.grid_12 {
-		width:100%;
+	.grid_12{
+		width:50%,
+	}
 
+	nav li{
+		padding: 4% 0;
+		width:50%;  /* Determines if  the buttons are in one row or two */
+		text-align: center;
+	}
+
+	nav a{
+		border-radius:0;
+		margin:0;
+	}
+
+	img{
+		text-align: center;
+	}
+
+	
 }
 
+
+
+	
+	
 
 
 
