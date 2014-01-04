@@ -376,6 +376,7 @@ blockquote:before {
 
 footer {
 	background-color: #305872;
+	background-image: url('../images/ridge.png');
 	padding-top: 2%;/*20px*/
 	height: 250px;
 	color: #f0f8ff;
