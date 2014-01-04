@@ -233,6 +233,15 @@ Input[value=""]{
 	margin-bottom: 1.75%;
 }
 
+img[src="images/contactimage.jpg"]{
+	height:70vh;
+}
+
+/*--------------------Feedback---------------------------------*/
+img[src="images/feedbackimage.jpg"]{
+	height:105vh;
+	width:52vm;
+}
 /*=====================Resources Page=========================*/
 
 .resource_img img{
