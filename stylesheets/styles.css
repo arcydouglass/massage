@@ -51,6 +51,7 @@ a{
 
 img{
 	max-width:100%;
+	border-radius: 10px;
 }
 
 
@@ -223,10 +224,10 @@ nav ul ul ul {
 	text-decoration: underline;
 }
 
-
 .about_img img {
 	width: 400px;
-	padding-right: 2%;
+	height: 300px;
+	margin-right: 2%;
 	margin-top: 2%;
 	float: left;
 }
