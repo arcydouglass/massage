@@ -206,10 +206,20 @@ nav ul ul ul {
 }
 /*--------------------About---------------------------------*/
 
+.about_img {
+	float: left;
+}
+
+.about_img img {
+	height: 400px;
+	padding-right: 5%;
+	margin-top: 5%;
+}
+
 .about_txt {
 	line-height: 1.5em;
 	margin: 0 1.25% 5% 0;
-	padding: 2% 2%;
+	float: left;
 }
 
 .about_txt a {
@@ -220,6 +230,7 @@ nav ul ul ul {
 .about_txt a:hover {
 	text-decoration: underline;
 }
+
 
 /*--------------------Contact---------------------------------*/
 Input[type="text"]{
