@@ -11,6 +11,10 @@ html {
   max-width: 945px;
 }
 
+.logo{
+	max-width:100%;
+}
+
 
 .containter .nav {
 	width:100%;
